@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Codenation - Desafio - Gabriel</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<!-- Compiled and minified CSS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src='main.js'></script>
+</head>
+<body>
+	<nav>
+    <div class="nav-wrapper black">
+      <a href="#" class="brand-logo">Codenation</a>
+    </div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col 16 s12">
+				<div class="section">
+					<h5>Instruções</h5>
+					<p>Na raiz deste projeto você irá encontrar 2 arquivos '.env' no qual deve definir seu TOKEN de acesso 'TOKEN' e a porta padrão que deseja iniciar 'PORT'</p>
+					<p>Insira o arquivo 'asnwer.json' que foi gerado na raiz quando iniciado e submeta o arquivo</p>
+				</div>
+				<div class="divider"></div>
+				<div class="section">
+					<h5>Submeter Desafio</h5>
+					<form id="form" action="https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=b2942f72d7085bc424497d1f847e547802392463" method="post" enctype="multipart/form-data">
+						<input type="file" name="answer" id="answer" class="waves-effect waves-light btn red">
+						<button class="btn waves-effect waves-light red" type="submit" form="form" name="action">Submeter
+							<i class="material-icons right">send</i>
+						</button>
+					</form>
+				</div>
+				<div class="divider"></div>
+
+			</div>
+		</div>
+	</div>
+	<footer class="page-footer black">
+		<div class="footer-copyright">
+			<div class="container">
+			© 2020 Copyright Gabriel Silva
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- <form action="https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=b2942f72d7085bc424497d1f847e547802392463" method="post" enctype="multipart/form-data">
+	Enviar Arquivo
+	<input type="file" name="answer" id="answer">
+	<input type="submit" value="Enviar" name="submit">
+	<button>teste</button>
+</form> -->

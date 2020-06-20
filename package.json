@@ -1,0 +1,38 @@
+{
+  "nodemonConfig": {
+    "ext": "js",
+    "ignore": [
+      "*.test.ts",
+      "db/*"
+    ],
+    "delay": "2"
+  },
+  "name": "codenation-node-gabriel",
+  "version": "1.0.0",
+  "description": "Desafio Codenatio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules index.js "
+  },
+  "author": "Gabriel Silva",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "consolidate": "^0.15.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "form-data": "^3.0.0",
+    "http": "^0.0.1-security",
+    "make": "^0.8.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "request": "^2.81.0",
+    "restler": "^3.4.0",
+    "sha1": "^1.1.1",
+    "test": "^0.6.0",
+    "writefile": "^0.2.8"
+  }
+}
